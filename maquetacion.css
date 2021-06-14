@@ -1,0 +1,93 @@
+#principal {
+	width:1000px;
+	margin:auto;
+}
+	#cabecera {
+		width:1000px;
+		height:50px;
+		background: #597FB8;
+	}
+		#cabecera ul {
+			text-align:center;
+			padding-top:15px;
+		}
+		#cabecera li {
+		display:inline;
+		margin-right:10px;
+		}
+			#cabecera a {
+				color:#fff;
+				text-decoration: none;
+				font-weight:bold;
+			}
+	section {
+		margin-top:50px;
+	}
+		#menu {
+			width:250px;
+			height:200px;
+			background:#38A47D;
+			float:left;
+		}
+		#contenido {
+			width:500px;
+			height:400px;
+			background:#8280E7;
+			float:left;
+			margin:0 25px 50px 25px;
+			padding:30;
+
+		}
+		#barra {
+			width:200px;
+			height:300px;
+			background:#F07FA3;
+			float:left;
+		}
+	.parallax {
+		clear:both;
+		width:100%;
+		height: 250px;
+		background:url(../imagenes/fondo2.jpg) fixed no-repeat;
+		background-size:cover;
+		background-position:center top;  
+	}
+		.servicios h3, .servicios h4 {
+			text-align:center;
+
+		}
+			.servicio {
+				width:150px;
+				height:150px;
+				border-radius:150px;
+				background:#EDF792;
+				float:left;
+				margin:50px;
+			}
+		#pie {
+			width:1000px;
+			clear:both;
+			border-top:solid #ccc;
+		}
+			.acerca {
+				width:250px;
+				float:left;
+				margin-right:100px;
+			}
+			.menu {
+				 width:220px;
+				 float:left;
+				 margin-right:100px;
+			}
+			.socialMedia {
+				width:300px;
+				float:left;
+			}
+				.social {
+					width:50px;
+					height:50px;
+					border-radius:50px;
+					background:#3AD1FB;
+					float:left;
+					margin-left:20px;
+				}
